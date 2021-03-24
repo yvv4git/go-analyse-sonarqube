@@ -6,3 +6,6 @@ cover:
 
 sec:
 	gosec -fmt=sonarqube -out report.json ./...
+
+sonarqube-scan:
+	./sonar-scan.sh
